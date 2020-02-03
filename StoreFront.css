@@ -1,0 +1,174 @@
+/*Common elements*/
+
+body{
+    background-color: black
+}
+
+.TitleBar{
+    top: 0;
+    color: #ff471a;
+    font-size: 55px;
+    background-image: url(AssetsStoreFront/topbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 400px;
+    width: 100%;
+}
+.TitleBar h1{
+    text-align: right;
+    padding-top: 65px;
+    padding-right: 55px;
+}
+/*Header*/
+
+.headerNavBar{
+    width: 100%;
+    height: 75px;
+    background-color: #ff471a;
+    text-align: right;                
+}
+.searchicon{
+
+    background-color: white;
+    margin-top: 2px;
+}
+.searchbar{
+    height: 2.3em;
+    background-image: url(AssetsStoreFront/searchicon.png);
+    background-size: 17%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    scroll-padding-top: 2px;
+        
+}
+
+#mybag{
+    height: 2.5em;
+    width: 2.5em;
+    margin-top: 2px;
+    position: relative;
+    top: 14px;
+}
+
+/*Nav Bars*/
+
+.headerNavBar ul{
+   list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+.headerNavBar li{
+    display: inline-block;
+}
+
+/*Main Left Section*/
+.mainleft{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 1431px;
+}
+.dropdown{
+    margin-top: 10px;
+}
+
+.dropbtn {
+    background-color: #ff471a;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    font-family: fantasy;
+    border: none;
+    width: 100%;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    font-family: fantasy;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: black;
+      color: white;
+      font-weight: bolder;
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+  .dropdown:hover .dropbtn {
+      background-color: #ff471a;
+      font-weight: bolder;
+    }
+
+    /*Main*/
+.main{
+    position: relative;    
+    background-color: white;
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 20px;
+    text-align: center;
+}  
+.main ul{
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
+
+}
+.main li{
+    display: inline-flex;
+    padding-left: 5px;
+}
+
+#petcostumes{
+    width: 300px;
+    height:300x;
+}
+/*Footer*/
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #ff471a;
+    text-align: center;
+    padding: 1em 1em;
+    color: white;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+#footerlinkbar a{
+    height: 50px;
+    color: white;
+    text-decoration: none;
+}
+    
+#footerlinkbar a link{
+    color:green;
+    background-color:white;
+}
+
+#footerlinkbar a:hover{
+    color: purple;
+    font-weight: bolder;
+    }
